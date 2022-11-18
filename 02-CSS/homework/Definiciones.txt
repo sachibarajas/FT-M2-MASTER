@@ -1,0 +1,3 @@
+Framework: Conjunto de herramientas que permiten que nuestro código sea más fácil de escribir, ya que tiene ayudas que simplifican la escritura y herramientas pre creadas que nos ahoran implementar muchas funcionalidades a mano.
+Preprocesador: Es una herramienta que permite escribir código CSS más práctico y re utilizable utilizando una sintaxis propia.
+Responsive website: Una aplicación web que se puede correr en cualquier dispositivo, ya que se adapta a los diferentes tamaños de pantallas que se puedan presentar.

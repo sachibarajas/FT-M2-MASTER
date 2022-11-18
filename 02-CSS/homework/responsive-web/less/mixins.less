@@ -1,1 +1,26 @@
 // Mixins acá
+.bordered(@color; @width; @radius){
+    border: @color solid @width;
+    border-radius: @radius;
+}
+.text(@txtcolor; @size){
+    color: @txtcolor;
+    font-size: @size;
+    
+}
+
+.btn{
+    .text(@wild-sand, 15px);
+    .bordered(@ebony-clay, 1px, 6px);
+    background-color: @ebony-clay;
+    height: 40px;
+    width: 95px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.btn:hover{
+    background-color: @wild-sand;
+    .text(@ebony-clay, 15px);
+    .bordered(@ebony-clay, 1px, 6px);
+}
