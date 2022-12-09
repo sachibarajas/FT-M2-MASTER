@@ -1,0 +1,17 @@
+.Submit{
+    margin-left: 50px;
+    background-color: saddlebrown;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: 'Segoe UI';
+    box-shadow: 0 0 15px saddlebrown;
+    border: solid 2px saddlebrown;
+    margin: 0px;
+    padding-bottom: 3px;
+    
+}
+
+.Input{
+    margin-right: 20px;
+    border-radius: 3px;
+}
