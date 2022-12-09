@@ -1,0 +1,8 @@
+h1{
+    color: aliceblue;
+}
+h5{
+    color: antiquewhite;
+    align-self: flex-end;
+    justify-self: end;
+}
