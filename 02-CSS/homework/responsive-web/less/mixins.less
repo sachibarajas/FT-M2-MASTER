@@ -1,1 +1,17 @@
 // Mixins acá
+.setting(@direction: row; @justify: center; @align: center){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.setImg(@radius: 20px){
+    border-radius: @radius;
+}
+
+.btnSet(@BG-color: @btn-bg-color; @color: @nav-bg){
+    background-color: @BG-color;
+    color: @color;
+    
+}
